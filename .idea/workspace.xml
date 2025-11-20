@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d42596c-1fac-4f25-a223-58f9038bb324" name="Changes" comment="Initial spring app commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/nuigalway/ct5171/controller/PetitionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/nuigalway/ct5171/model/Petition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/nuigalway/ct5171/model/Signature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ie/nuigalway/ct5171/service/PetitionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/create-petition.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/list-petitions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/petition-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/search-results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterDir="false" />
+    <list default="true" id="0d42596c-1fac-4f25-a223-58f9038bb324" name="Changes" comment="Added java classes and html templates">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ie/nuigalway/ct5171/ArthursPetitionsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/nuigalway/ct5171/ArthursPetitionsApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763589212724</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added java classes and html templates">
+      <option name="closed" value="true" />
+      <created>1763672354072</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763672354073</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial spring app commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial spring app commit" />
+    <MESSAGE value="Added java classes and html templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added java classes and html templates" />
   </component>
 </project>
