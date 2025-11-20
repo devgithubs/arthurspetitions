@@ -30,17 +30,16 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- Thymeleaf templates -->
+        <!-- Thymeleaf -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
-        <!-- External Tomcat will run the WAR -->
+        <!-- Embedded Tomcat (NO scope=provided!) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 
