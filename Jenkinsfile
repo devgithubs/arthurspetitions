@@ -33,7 +33,6 @@ pipeline {
             steps {
                 echo "Packaging WAR file..."
                 sh 'mvn package -DskipTests'
-                sh 'cp target/*.war target/arthurspetitions.war'
                 archiveArtifacts artifacts: 'target/arthurspetitions.war', fingerprint: true
             }
         }
