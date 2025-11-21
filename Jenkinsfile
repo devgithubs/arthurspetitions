@@ -47,13 +47,8 @@ pipeline {
 
         stage('Deploy to Tomcat') {
             steps {
-                echo "Deploying WAR to Tomcat Docker container..."
-
-                // Copy WAR into Tomcat's webapps folder
-                sh '''
-                CONTAINER_ID=$(docker ps -qf "name=tomcat")
-                docker cp target/arthurspetitions.war $CONTAINER_ID:/usr/local/tomcat/webapps/
-                '''
+                echo "Deploying WAR to Tomcat (via shared volume)..."
+                sh 'cp target/arthurspetitions.war /opt/tomcat_deploy/arthurspetitions.war'
             }
         }
     }
