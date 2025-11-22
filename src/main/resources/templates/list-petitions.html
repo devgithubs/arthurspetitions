@@ -5,8 +5,8 @@
 
 <h1>All Petitions</h1>
 
-<a href="/petitions/new">Create New Petition</a> |
-<a href="/petitions/search">Search</a>
+<a th:href="@{/petitions/new}">Create New Petition</a> |
+<a th:href="@{/petitions/search}">Search</a>
 
 <ul>
     <li th:each="p : ${petitions}">
