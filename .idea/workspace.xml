@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d42596c-1fac-4f25-a223-58f9038bb324" name="Changes" comment="Change Jenkins attempt to create copy of war file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-    </list>
+    <list default="true" id="0d42596c-1fac-4f25-a223-58f9038bb324" name="Changes" comment="Amend Jenkins file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763739584895</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Amend Jenkins file">
+      <option name="closed" value="true" />
+      <created>1763743448547</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763743448548</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +171,7 @@
     <MESSAGE value="Added Jenkinsfile to root" />
     <MESSAGE value="Updated Jenkinsfile pipeline" />
     <MESSAGE value="Change Jenkins attempt to create copy of war file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Jenkins attempt to create copy of war file" />
+    <MESSAGE value="Amend Jenkins file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Amend Jenkins file" />
   </component>
 </project>
