@@ -4,7 +4,7 @@
 
 A simple petition web application built with Spring Boot, Thymeleaf, and Java 17 as part of the CT5171 Continuous Deployment assignment.
 
-🚀 Features
+🚀 App Features
 
 This web application allows users to:
 
