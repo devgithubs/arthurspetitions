@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d42596c-1fac-4f25-a223-58f9038bb324" name="Changes" comment="update thymeleaf syntax for URL">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/list-petitions.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/list-petitions.html" afterDir="false" />
+    <list default="true" id="0d42596c-1fac-4f25-a223-58f9038bb324" name="Changes" comment="update thymeleaf syntax for URLs">
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763831704978</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update thymeleaf syntax for URLs">
+      <option name="closed" value="true" />
+      <created>1763832425345</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1763832425345</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +217,7 @@
     <MESSAGE value="update main class for WAR deployment" />
     <MESSAGE value="update README.md" />
     <MESSAGE value="update thymeleaf syntax for URL" />
-    <option name="LAST_COMMIT_MESSAGE" value="update thymeleaf syntax for URL" />
+    <MESSAGE value="update thymeleaf syntax for URLs" />
+    <option name="LAST_COMMIT_MESSAGE" value="update thymeleaf syntax for URLs" />
   </component>
 </project>

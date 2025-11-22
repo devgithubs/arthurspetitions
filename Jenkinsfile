@@ -37,14 +37,6 @@ pipeline {
             }
         }
 
-        stage('Approval to Deploy') {
-            steps {
-                timeout(time: 10, unit: 'MINUTES') {
-                    input message: "Deploy Arthur's Web App to Tomcat?"
-                }
-            }
-        }
-
         stage('Deploy to Tomcat') {
             steps {
                 echo "Deploying WAR to Tomcat (via shared volume)..."
