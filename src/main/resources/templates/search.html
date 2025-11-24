@@ -5,10 +5,11 @@
 
 <h1>Search Petitions</h1>
 
-<form action="/petitions/search/results" method="get">
+<form th:action="@{/petitions/search/results}" method="get">
     <input type="text" name="query" placeholder="Search term..." required>
     <button type="submit">Search</button>
 </form>
+
 
 <br>
 <a th:href="@{/petitions}">Back</a>
