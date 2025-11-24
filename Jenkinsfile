@@ -36,6 +36,13 @@ pipeline {
                 archiveArtifacts artifacts: 'target/arthurspetitions.war', fingerprint: true
             }
         }
+        stage('Approval to Deploy') {
+            steps {
+                timeout(time: 10, unit: 'MINUTES') {
+                    input message: "Deploy Arthur's Web App to Tomcat?"
+                }
+            }
+        }
 
         stage('Deploy to Tomcat') {
             steps {
