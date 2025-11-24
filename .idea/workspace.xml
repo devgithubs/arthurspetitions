@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d42596c-1fac-4f25-a223-58f9038bb324" name="Changes" comment="add manual approval stage to Jenkinsfile">
+    <list default="true" id="0d42596c-1fac-4f25-a223-58f9038bb324" name="Changes" comment="update search.html to use thymeleaf syntax">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764002857560</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update search.html to use thymeleaf syntax">
+      <option name="closed" value="true" />
+      <created>1764006547796</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1764006547796</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +244,7 @@
     <MESSAGE value="update thymeleaf syntax for URLs" />
     <MESSAGE value="remove manual approval stage from Jenkinsfile" />
     <MESSAGE value="add manual approval stage to Jenkinsfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="add manual approval stage to Jenkinsfile" />
+    <MESSAGE value="update search.html to use thymeleaf syntax" />
+    <option name="LAST_COMMIT_MESSAGE" value="update search.html to use thymeleaf syntax" />
   </component>
 </project>
